@@ -26,6 +26,6 @@ let
 
 in
   nixpkgs.stdenv.mkDerivation {
-    name = "yt-embed";
+    name = "yt-emb";
     buildInputs = install_packages;
   }
